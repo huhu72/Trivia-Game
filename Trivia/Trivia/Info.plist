@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSMotionUsageDescription</key>
+	<string>&quot;Allow motion usage&quot;</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>accelerometer</string>
+	</array>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>&quot;Tirivia would like to access your photos&quot;</string>
+	<key>NSBonjourServices</key>
+	<array>
+		<string>_quiz._udp</string>
+		<string>_quiz._tcp</string>
+	</array>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>&quot;Trivia would like to connect with other devices in your local network&quot;</string>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+		<key>UISceneConfigurations</key>
+		<dict>
+			<key>UIWindowSceneSessionRoleApplication</key>
+			<array>
+				<dict>
+					<key>UISceneConfigurationName</key>
+					<string>Default Configuration</string>
+					<key>UISceneDelegateClassName</key>
+					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
+					<key>UISceneStoryboardFile</key>
+					<string>Main</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+</dict>
+</plist>

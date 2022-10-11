@@ -1,0 +1,18 @@
+{
+    "numberOfQuestions": 2,
+    "questions": [
+        {
+            "number": 1,
+            "questionSentence": "What is the capital of USA?",
+            "options": {"A": "Rome", "B": "London", "C": "D.C.", "D": "New York"},
+            "correctOption": "C"
+        },
+        {
+            "number": 2,
+            "questionSentence": "What was the age of Steve Jobs when he died?",
+            "options": {"A": "59", "B": "56", "C": "49", "D": "54"},
+            "correctOption": "B"
+        }
+    ],
+    "topic": "General"
+}
